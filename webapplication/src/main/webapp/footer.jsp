@@ -1,4 +1,5 @@
-<div id="footer">
-	&copy; All rights reserved.
-	<%=new java.util.Date()%>
-</div>
+<footer>
+	<p>Bhagwat's Organic Products Copy &copy; 2018</p>
+</footer>
+</body>
+</html>
