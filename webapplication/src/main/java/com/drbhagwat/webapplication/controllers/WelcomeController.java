@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WelcomeController {
-	@RequestMapping("/welcome.html")
+	@RequestMapping("/")
 	public String Welcome() {
-		return ("welcome.jsp");
+		return ("index.jsp");
 	}
 }
