@@ -50,7 +50,7 @@
 							temples in the vicinity. We also sell it to our "near and dear
 							ones" for a nominal price.</p>
 						<p>We grow mouth-watering mangoes in our own backyard. The
-							mango season is typicall between April and June every year. The
+							mango season is typical between April and June every year. The
 							saplings of these mango trees were bought from different parts of
 							our country and carefully tendered and nurtured by us for several
 							years.</p>

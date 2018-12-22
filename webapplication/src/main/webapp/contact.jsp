@@ -56,7 +56,7 @@
 					<div class="col-md-6 text-center">
 						<ul class="list-unstyled mb-0">
 							<li><i class="fas fa-map-marker-alt"></i>
-								<p>Behind Channa Keshava Temple, Karki, Karnataka - 581341,
+								<p>Behind Chenna Keshava Temple, Karki, Karnataka - 581341,
 									India</p></li>
 
 							<li><i class="fas fa-phone mt-4 fa-2x"></i>
