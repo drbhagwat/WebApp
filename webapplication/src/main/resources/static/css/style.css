@@ -1,4 +1,4 @@
-.container-fluid, .jumbotron,  .jumbotron-fluid, .row, .col-md-3, .card-title, .display-6, .col-md-9, .h6, .p {
+.container-fluid, .jumbotron,  .jumbotron-fluid, .row, .col-md-3, .card-title, .display-6, .col-md-9, .h6, .p, .col-md-6 {
     margin: 0;
     padding: 0;
 }
@@ -8,17 +8,12 @@
     display: flex;
 }
 
-.col-md-3 {
-    height: 600px;
-}
-
 .col-md-3 .card-title {
     height: 600px;
 }
 
-.col-md-9 {
-    height: 600px;
-    width:100%
+.col-md-6 .img-fluid {
+    height: 800px;
 }
 
 .col-md-9 .img-fluid{

@@ -12,10 +12,10 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a class="nav-link"
-					href="index.html">Home <span class="sr-only">(current)</span></a></li>
-				<li class="nav-item"><a class="nav-link" href="./about.html">About
+					href="index.jsp">Home <span class="sr-only">(current)</span></a></li>
+				<li class="nav-item"><a class="nav-link" href="./about.jsp">About
 						Us</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Contact
+				<li class="nav-item"><a class="nav-link" href="./contact.jsp">Contact
 						Us</a></li>
 
 				<li class="nav-item dropdown"><a
@@ -65,4 +65,5 @@
 			</div>
 		</div>
 	</div>
-	<%@ include file="footer.jsp"%>
+
+<%@ include file="footer.jsp"%>
