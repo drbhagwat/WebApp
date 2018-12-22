@@ -7,7 +7,6 @@
 <script src="./jquery/jquery-3.3.1.slim.min.js"></script>
 <script src="./popper/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
-<script src="./js/imageslider.js"></script>
 
 </body>
 </html>
