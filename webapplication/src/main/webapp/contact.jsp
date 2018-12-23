@@ -39,7 +39,7 @@
 				<p class="text-center w-responsive mx-auto mb-5">Do you have any
 					questions? Please do not hesitate to contact us directly. Our team
 					will come back to you within a matter of hours to help you.</p>
-				<form action="/action_page.php">
+				<form action="contactus_response.jsp">
 					<div class="form-group">
 						<input type="text" id="name" name="name" class="form-control">
 						<label for="name" class="">Your name</label> <input type="text"

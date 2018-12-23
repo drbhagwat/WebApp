@@ -1,4 +1,3 @@
-
 <footer class="bg-primary" style="color: white; text-align: center">
 	<p>Bhagwat's Organic Copy &copy; 2018</p>
 </footer>
