@@ -37,12 +37,10 @@
 		<img class="card-img" src="./images/showcase.jpg" alt="Card image">
 		<div class="card-img-overlay">
 			<h1 class="display-6">
-				Hi
-				<%=request.getParameter("name")%>
+				Hi ${param.name}
 				Thanks for contacting us. We have received your message. We value
-				your feedback. Someone will get in touch with you at
-				<%=request.getParameter("email")%>
-				shortly.
+				your feedback. Someone will get in touch with you shortly, at
+				${param.email}.
 			</h1>
 		</div>
 	</div>
