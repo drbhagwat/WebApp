@@ -16,6 +16,7 @@
 					Us</a></li>
 			<li class="nav-item"><a class="nav-link" href="./contact.jsp">Contact
 					Us</a></li>
+
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 				role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -32,7 +33,9 @@
 <div class="card bg-dark text-white">
 	<img class="card-img" src="./images/showcase.jpg" alt="Card image">
 	<div class="card-img-overlay">
-		<h1 class="display-6">Welcome to Bhagwat's Organic Farm</h1>
+		<h1 class="display-6">Hi ${param.name} Thanks for contacting us.
+			We have received your message. We value your feedback. Someone will
+			get in touch with you shortly, at ${param.email}.</h1>
 	</div>
 </div>
 
