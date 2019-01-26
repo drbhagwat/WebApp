@@ -38,5 +38,4 @@
 </div>
 
 <script src="./js/imageslider.js"></script>
-
 <%@ include file="footer.jsp"%>

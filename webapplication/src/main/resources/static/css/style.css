@@ -23,13 +23,18 @@
     width: 100%;
 }
 
+.col-md-12 {
+    height: 800px;
+    width: 100%;
+}
+
 .card{
     border-radius: 0;
 }
 
 .card-title {
     color:black;
-    background-color: yellow;
+    background-color: white;
     text-align: left;
     overflow: auto;
 }
