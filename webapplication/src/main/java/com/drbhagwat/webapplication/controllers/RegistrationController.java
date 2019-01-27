@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class RegistrationController {
 	@PostMapping("/register")
 	public String processRegistrationForm() {
-		return ("index.jsp");
+		return ("index");
 	}
 }
