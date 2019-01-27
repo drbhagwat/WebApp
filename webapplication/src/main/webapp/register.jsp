@@ -2,7 +2,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<form action="/action_page.php">
+			<form action="/register" method="post">
 				<div class="form-group text-center">
 					<label for="name">Your Name</label> <input type="text" id="name"
 						name="name" required placeholder="Enter your name"

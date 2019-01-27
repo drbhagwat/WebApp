@@ -4,18 +4,20 @@
 	<div class="row">
 		<div class="col-md-6">
 			<p class="text-center w-responsive mx-auto mb-5">Have a question?
-				Please fill in the form below and submit. We will come back to you.</p>
-			<form action="/action_page.php">
+				Please fill the form below and submit. We will come back to you.</p>
+			<form action="/contact_response.jsp">
 				<div class="form-group text-center">
 					<label for="name">Your Name</label> <input type="text" id="name"
-						name="name" placeholder="Enter your name" class="form-control">
-					<label for="email">Your E-mail</label> <input type="text"
-						id="email" name="email" placeholder="Enter your e-mail id"
-						class="form-control"> <label for="subject">Subject</label>
-					<input type="text" id="subject" name="subject"
-						placeholder="Enter your subject" class="form-control"> <label
-						for="message">Brief Message</label>
-					<textarea type="text" id="message" name="message"
+						required name="name" placeholder="Enter your name"
+						class="form-control"> <label for="email">Your
+						E-mail</label> <input type="text" id="email" name="email"
+						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required
+						placeholder="Enter your e-mail id" class="form-control"> <label
+						for="subject">Subject</label> <input type="text" id="subject"
+						name="subject" required placeholder="Enter your subject"
+						class="form-control"> <label for="message">Brief
+						Message</label>
+					<textarea type="text" id="message" name="message" required
 						placeholder="Enter your brief message" rows="4"
 						class="form-control md-textarea"></textarea>
 					<button type="submit" class="btn btn-primary">Submit</button>
