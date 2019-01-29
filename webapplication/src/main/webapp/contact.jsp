@@ -5,7 +5,7 @@
 		<div class="col-md-6">
 			<p class="text-center w-responsive mx-auto mb-5">Have a question?
 				Please fill the form below and submit. We will come back to you.</p>
-			<form action="/contact_response.jsp">
+			<form action="/feedback" method="post">
 				<div class="form-group text-center">
 					<label for="name">Your Name</label> <input type="text" id="name"
 						required name="name" placeholder="Enter your name"
