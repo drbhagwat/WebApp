@@ -1,6 +1,17 @@
-package com.drbhagwat.webapplcation.model;
+package com.drbhagwat.webapplication.feedback;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
+@Entity
 public class Feedback {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column(updatable = false, nullable = false)
+  private Long id;
+  
   private String name;
   private String email;
   private String subject;

@@ -6,10 +6,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.drbhagwat.webapplcation.model.Customer;
-import com.drbhagwat.webapplcation.model.CustomerRepository;
-import com.drbhagwat.webapplication.controllers.CustomerController;
 import com.drbhagwat.webapplication.controllers.HomeController;
+import com.drbhagwat.webapplication.customer.Customer;
+import com.drbhagwat.webapplication.customer.CustomerController;
+import com.drbhagwat.webapplication.customer.CustomerRepository;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;

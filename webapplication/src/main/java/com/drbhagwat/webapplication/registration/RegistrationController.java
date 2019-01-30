@@ -1,4 +1,4 @@
-package com.drbhagwat.webapplication.controllers;
+package com.drbhagwat.webapplication.registration;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

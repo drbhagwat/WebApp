@@ -1,4 +1,4 @@
-package com.drbhagwat.webapplcation.model;
+package com.drbhagwat.webapplication.customer;
 
 public class Customer {
   private String name;

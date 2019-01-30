@@ -1,4 +1,4 @@
-package com.drbhagwat.webapplcation.model;
+package com.drbhagwat.webapplication.customer;
 
 import java.util.ArrayList;
 import java.util.List;
