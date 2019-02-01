@@ -26,14 +26,14 @@
 				<div class="text-center">
 					<ul class="list-unstyled mb-0">
 						<li><i class="fas fa-map-marker-alt"></i>
-							<p>Behind Channa Keshava Temple, Karki, Karnataka - 581341,
-								India</p></li>
+							Behind Channa Keshava Temple, Karki, Karnataka - 581341,
+								India</li>
 
 						<li><i class="fas fa-phone mt-4 fa-2x"></i>
-							<p>+91-9731033370</p></li>
+							+91-9731033370</li>
 
 						<li><i class="fas fa-envelope mt-4 fa-2x"></i>
-							<p>dinesh.bhagwat@gmail.com</p></li>
+							dinesh.bhagwat@gmail.com</li>
 					</ul>
 				</div>
 			</form>
@@ -45,4 +45,11 @@
 	</div>
 </div>
 
+<script src="./js/bootstrap-validate.js" ></script>
+<script>
+	bootstrapValidate('#name', 'min:1:Name cannot be blank');
+	bootstrapValidate('#email', 'email:Please enter a valid email for this field');
+	bootstrapValidate('#subject', 'min:1:Subject cannot be blank');
+	bootstrapValidate('#message', 'min:1: Message cannot be blank');
+</script>
 <%@ include file="footer.jsp"%>

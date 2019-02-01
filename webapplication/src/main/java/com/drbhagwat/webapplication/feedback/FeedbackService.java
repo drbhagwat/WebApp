@@ -12,13 +12,13 @@ public class FeedbackService {
   private FeedbackRepository feedbackRepository;
 
   public List<Feedback> getAllFeedback() {
-	List<Feedback> feedback = new ArrayList<>();
-	feedbackRepository.findAll().forEach(feedback::add);
-	return feedback;
+    List<Feedback> feedback = new ArrayList<>();
+    feedbackRepository.findAll().forEach(feedback::add);
+    return feedback;
   }
-  
+
   public void addFeedback(Feedback feedback) {
-	feedbackRepository.save(feedback);
+    feedbackRepository.save(feedback);
   }
 
 }
