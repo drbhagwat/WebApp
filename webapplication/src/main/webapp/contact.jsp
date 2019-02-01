@@ -26,7 +26,7 @@
 
 				<div class="form-group text-center">
 					<label for="message">Brief Message</label>
-					<textarea type="text" id="message" name="message" required
+					<textarea id="message" name="message" required
 						placeholder="Enter your brief message" rows="4" class="form-control md-textarea"></textarea>
 				</div>
 
