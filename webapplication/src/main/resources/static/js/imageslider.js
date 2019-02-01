@@ -17,6 +17,7 @@ images[9] = "./images/image10.jpg";
 images[10] = "./images/image11.jpg";
 images[11] = "./images/image12.jpg";
 images[12] = "./images/image13.jpg";
+images[13] = "./images/image14.jpg";
 
 // change the image displyed
 
