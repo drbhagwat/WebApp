@@ -11,6 +11,7 @@
 					Your Name
 					<sf:input path="name" required="required"
 						placeholder="Enter your Name" class="form-control" />
+						<sf:errors path="name" cssClass="error" /> 						
 				</div>
 
 				<div class="form-group text-center">
