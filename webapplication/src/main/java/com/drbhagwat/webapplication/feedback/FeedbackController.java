@@ -17,17 +17,17 @@ public class FeedbackController {
   @GetMapping("/feedback")
   public String showFeedbackForm(Model model) {
 	model.addAttribute("feedback", new Feedback());
-	return ("contact");
+	return ("feedback");
   }
 
   @PostMapping("/feedback")
   public String processFeedbackForm(@Valid Feedback feedback, Errors errors) {
 
 	if (errors.hasErrors()) {
-	  return ("contact");
+	  return ("feedback");
 	}
 	feedbackService.addFeedback(feedback);
-	return ("feedback");
+	return ("feedback_response");
   }
 
 
