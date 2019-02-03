@@ -1,4 +1,4 @@
-<%@ include file="header.html"%>
+<%@ include file="header.jsp"%>
 
 <div class="jumbotron bg-white text-info">
 	<h1 class="display-6">Hi ${param.name} Thanks for contacting us.

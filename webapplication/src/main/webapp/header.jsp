@@ -1,3 +1,5 @@
+<%@ page session="false" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="sf" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +28,7 @@
                     <a class="nav-link" href="./about.jsp">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.jsp">Contact Us</a>
+                    <a class="nav-link" href="./feedback">Contact Us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"

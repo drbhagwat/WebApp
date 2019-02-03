@@ -1,4 +1,4 @@
-<%@ include file="header.html"%>
+<%@ include file="header.jsp"%>
 
 <div class="card bg-dark text-white">
 	<img class="card-img" src="./images/showcase.jpg" alt="Card image">
