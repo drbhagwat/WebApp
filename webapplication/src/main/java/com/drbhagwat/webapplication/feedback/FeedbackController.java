@@ -29,6 +29,4 @@ public class FeedbackController {
 	feedbackService.addFeedback(feedback);
 	return ("feedback_response");
   }
-
-
 }

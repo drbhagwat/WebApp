@@ -59,6 +59,5 @@ public class Feedback {
   }
   
   public Feedback() {
-	super();
   }
 }
