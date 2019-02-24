@@ -39,7 +39,7 @@
 						role="button" data-toggle="dropdown" aria-haspopup="true"
 						aria-expanded="false"> Features </a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="./register.jsp">Register</a> <a
+							<a class="dropdown-item" href="./register">Register</a> <a
 								class="dropdown-item" href="#">Login</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="#">Order</a>
