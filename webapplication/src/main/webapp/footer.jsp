@@ -1,4 +1,4 @@
-<footer class="bg-primary" style="color: white; text-align: center">
+<footer class="bg-warning" style="color: black !important; text-align: center">
 	<p>
 		Bhagwat's Organic Copy &copy;
 		<%

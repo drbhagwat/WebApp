@@ -8,8 +8,8 @@
 						name="name" required placeholder="Enter your name"
 						class="form-control"> <label for="email">Your
 						E-mail</label> <input type="text" id="email" name="email"
-						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required
-						placeholder="Enter your e-mail here (eg., john@gmail.com)"
+						required
+						placeholder="Enter your e-mail (eg., drbagwat@yahoo.com)"
 						class="form-control"> <label for="password">Your
 						Password</label> <input type="password" id="password" name="password"
 						required placeholder="Enter your password" class="form-control">

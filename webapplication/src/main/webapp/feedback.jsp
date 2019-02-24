@@ -17,7 +17,8 @@
 				<div class="form-group text-center">
 					Your E-mail
 					<sf:input path="email" required="required"
-						placeholder="Enter your e-mail id" class="form-control" />
+						placeholder="Enter your e-mail (eg., drbagwat@yahoo.com)"
+						class="form-control" />
 					<sf:errors path="email" cssClass="error" />
 				</div>
 

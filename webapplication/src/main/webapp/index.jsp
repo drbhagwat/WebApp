@@ -1,10 +1,17 @@
 <%@ include file="header.jsp"%>
 
-<div class="card bg-dark text-white">
-	<img class="card-img" src="./images/showcase.jpg" alt="Card image">
-	<div class="card-img-overlay">
-		<h1 class="display-6">Welcome to Bhagwat's Organic Farm</h1>
+<main>
+<div class="container-fluid p-0">
+	<div class="site-content">
+		<div class="d-flex justify-content-center">
+			<div class="d-flex flex-column">
+				<h1 class="site-title">Welcome to Bhagwat's Organic</h1>
+				<p class="site-desc">We sell Organic Honey year-around and
+					Delicious Mangoes and Mango-Grafts seasonally</p>
+			</div>
+		</div>
 	</div>
 </div>
+</main>
 
 <%@ include file="footer.jsp"%>

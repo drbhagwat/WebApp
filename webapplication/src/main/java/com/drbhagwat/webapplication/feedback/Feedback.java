@@ -16,7 +16,8 @@ public class Feedback {
   @Column(updatable = false, nullable = false)
   private Long id;
   
-  @NotNull
+  @NotNull(message = "{name.notNull}")
+  @NotBlank(message = "{name.notBlank}")
   @Size(min=1, max=50, message="{name.size}")
   private String name;
 
@@ -27,10 +28,12 @@ public class Feedback {
   
   @NotNull(message = "{subject.notNull}")
   @NotBlank(message = "{subject.notBlank}")
+  @Size(min=1, max=50, message="{subject.size}")
   private String subject;
   
   @NotNull(message = "{message.notNull}")
   @NotBlank(message = "{message.notBlank}")
+  @Size(min=1, max=200, message="{message.size}")
   private String message;
   
   public String getName() {
