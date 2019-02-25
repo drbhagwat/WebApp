@@ -22,16 +22,20 @@
 
 					<div class="form-group text-center">
 						Password
-						<sf:input path="password" required="required"
+						<sf:password path="password" required="required"
 							placeholder="Enter your password" class="form-control" />
 						<sf:errors path="password" cssClass="error" />
 					</div>
 
 					<div class="form-group text-center">
 						Confirm Your Password
-						<sf:input path="confirmPassword" required="required"
+						<sf:password path="confirmPassword" required="required"
 							placeholder="Re-enter your password" class="form-control" />
 						<sf:errors path="confirmPassword" cssClass="error" />
+					</div>
+
+					<div class="form-group text-center">
+						<input id="validationMessage" readOnly class="form-control" />
 					</div>
 
 					<div class="form-group text-center">
