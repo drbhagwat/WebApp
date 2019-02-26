@@ -5,33 +5,35 @@
 			<form action="/register" method="post">
 				<sf:form method="POST" action="/register"
 					modelAttribute="registration">
+					<sf:errors path="*" element="div" cssClass="errors" />
+
 					<div class="form-group text-center">
-						Your Name
+						<sf:label path="name" cssErrorClass="error">
+						Name </sf:label>
 						<sf:input path="name" required="required"
 							placeholder="Enter your Name" class="form-control" />
-						<sf:errors path="name" cssClass="error" />
 					</div>
 
 					<div class="form-group text-center">
-						Your E-mail
+						<sf:label path="email" cssErrorClass="error">
+						E-mail </sf:label>
 						<sf:input path="email" required="required"
-							placeholder="Enter your e-mail (eg., drbagwat@yahoo.com)"
+							placeholder="Enter your e-mail id (eg., drbagwat@yahoo.com)"
 							class="form-control" />
-						<sf:errors path="email" cssClass="error" />
 					</div>
 
 					<div class="form-group text-center">
-						Password
+						<sf:label path="password" cssErrorClass="error">
+						Password </sf:label>
 						<sf:password path="password" required="required"
 							placeholder="Enter your password" class="form-control" />
-						<sf:errors path="password" cssClass="error" />
 					</div>
 
 					<div class="form-group text-center">
-						Confirm Your Password
+						<sf:label path="confirmPassword" cssErrorClass="error">
+						Confirm Password </sf:label>
 						<sf:password path="confirmPassword" required="required"
 							placeholder="Re-enter your password" class="form-control" />
-						<sf:errors path="confirmPassword" cssClass="error" />
 					</div>
 
 					<div class="form-group text-center">
@@ -39,11 +41,11 @@
 					</div>
 
 					<div class="form-group text-center">
-						Mobile Number
+						<sf:label path="mobile" cssErrorClass="error">
+						Mobile Number </sf:label>
 						<sf:input path="mobile" required="required"
 							placeholder="Enter your 10 digit mobile number"
 							class="form-control" />
-						<sf:errors path="mobile" cssClass="error" />
 					</div>
 
 					<div class="form-group text-center">
@@ -58,3 +60,4 @@
 
 <%@ include file="footer.jsp"%>
 <script src="./js/register.js"></script>
+

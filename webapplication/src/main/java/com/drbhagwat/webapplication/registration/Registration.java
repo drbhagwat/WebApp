@@ -31,9 +31,9 @@ public class Registration {
   @Size(min=1, max=50, message="{password.size}")
   private String password;
   
-  @NotNull(message = "{password.notNull}")
-  @NotBlank(message = "{password.notBlank}")
-  @Size(min=1, max=50, message="{password.size}")
+  @NotNull(message = "{confirmPassword.notNull}")
+  @NotBlank(message = "{confirmPassword.notBlank}")
+  @Size(min=1, max=50, message="{confirmPassword.size}")
   private String confirmPassword;
 
   @NotNull(message = "{mobile.notNull}")
