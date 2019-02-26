@@ -7,34 +7,41 @@
 				Please fill the form below and submit. We will come back to you.</p>
 
 			<sf:form method="POST" action="/feedback" modelAttribute="feedback">
+				<sf:errors path="*" element="div" cssClass="errors" />
+
 				<div class="form-group text-center">
-					Your Name
+					<sf:label path="name" cssErrorClass="error">
+						Your Name </sf:label>
 					<sf:input path="name" required="required"
 						placeholder="Enter your Name" class="form-control" />
-					<sf:errors path="name" cssClass="error" />
 				</div>
 
 				<div class="form-group text-center">
-					Your E-mail
+					<sf:label path="email" cssErrorClass="error">
+						Your E-mail </sf:label>
 					<sf:input path="email" required="required"
-						placeholder="Enter your e-mail (eg., drbagwat@yahoo.com)"
+						placeholder="Enter your e-mail id (eg., drbagwat@yahoo.com)"
 						class="form-control" />
-					<sf:errors path="email" cssClass="error" />
 				</div>
 
 				<div class="form-group text-center">
-					Subject
+					<sf:label path="subject" cssErrorClass="error">
+					Subject </sf:label>
+
 					<sf:input path="subject" required="required"
 						placeholder="Enter your subject" class="form-control" />
-					<sf:errors path="subject" cssClass="error" />
 				</div>
 
 				<div class="form-group text-center">
-					Brief Message
+					<sf:label path="subject" cssErrorClass="error">
+					Brief Message </sf:label>
 					<sf:textarea path="message" required="required"
 						placeholder="Enter your brief message" rows="4"
 						class="form-control" />
-					<sf:errors path="message" cssClass="error" />
+				</div>
+
+				<div class="form-group text-center">
+					<input id="validationMessage" readOnly class="form-control" />
 				</div>
 
 				<div class="form-group text-center">
@@ -59,3 +66,4 @@
 	</div>
 </div>
 <%@ include file="footer.jsp"%>
+<script src="./js/feedback.js"></script>
